@@ -1,0 +1,111 @@
+*{
+    border: 0.5px solid red;
+}
+body{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.contblue{
+    background-color: #1F2937;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+button{
+    width: 100px;
+    padding: 7px;
+    border-radius: 5px;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    background-color: #1F2937;
+
+}
+
+.hero{
+    display: flex;
+  
+}
+
+.logo{
+    display: flex;
+    font-size: 24px;
+    color:#F9FAF8;
+    
+
+}
+.bluecontent{
+
+    margin: auto;
+}
+.bluecontent span{
+    font-size: 48px;
+    color:#F9FAF8
+}
+.bluecontent p{
+    font-size: 18px;
+    color:#E5E7EB;
+}
+.bluecontent button{
+    background-color: #3882F6;
+    color:#E5E7EB
+}
+.img{
+    margin-right: auto;
+}
+.contwhite{
+    background-color: white;
+    height: 300px;
+
+}
+
+.contwhite h2{
+    text-align: center;
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: 900;
+}
+
+.contwhite .carimgs  {
+}
+.contwhite .carimgs ul li img {
+    width: 190px;
+    height: 190px;
+    
+}
+
+.contgrey{
+    background-color: #E5E7EB;
+    height: 300px;
+}
+
+.contwhiteblue{
+    background-color: white;
+    height: 300px;
+}
+
+footer{
+    background-color: #1F2937;
+    height: 80px;
+
+}
+ul {
+    list-style-type: none;
+  }
+  ul li{
+    display: inline;
+    padding:5px;
+  }
+  a {
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 18px;
+  }
