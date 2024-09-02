@@ -1,6 +1,6 @@
-*{
+/* *{
     border: 0.5px solid red;
-}
+} */
 body{
     margin: 0;
     min-height: 100vh;
@@ -63,7 +63,7 @@ button{
 }
 .contwhite{
     background-color: white;
-    height: 300px;
+    height: 370px;
 
 }
 
@@ -74,27 +74,92 @@ button{
     font-weight: 900;
 }
 
-.contwhite .carimgs  {
+.carimgs  {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    height: 200px;
+    
 }
 .contwhite .carimgs ul li img {
     width: 190px;
     height: 190px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
     
 }
+.contwhite .carimgs ul li p  {
+display: inline;
+align-content: center;
+align-items: center;
+text-align: center;
+}
+.contwhite .carimgs ul li{
+    align-content: center;
+    align-items: center;
+text-align: center;
 
-.contgrey{
+    
+}
+ 
+
+
+.contgrey {
     background-color: #E5E7EB;
     height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#1F2937;
+
+}
+.contgrey .quote{
+    font-size: 36px;
+    margin-left:20px ;
+    
+
+}
+.contgrey .author{
+    margin-top: 90px;
+    font-weight: bold;
 }
 
 .contwhiteblue{
     background-color: white;
     height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contwhiteblue2{
+    width: 600px;
+    height: 100px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    color:#E5E7EB;
+    font-weight: bold;
+}
+.contwhiteblue2 button{
+    background-color: #3882F6;
+    color:#E5E7EB;
+    border: 2px solid #E5E7EB;
 }
 
 footer{
     background-color: #1F2937;
     height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    margin-top: auto;
 
 }
 ul {
